@@ -2,6 +2,7 @@
 <h3 align="center">Student with keen intrest in AI/ML and APP Development</h3>
 
 <p align="left"> <a href="https://twitter.com/rainmaker__007" target="blank"><img src="https://img.shields.io/twitter/follow/rainmaker__007?logo=twitter&style=for-the-badge" alt="rainmaker__007" /></a> </p>
+<p align="left"> <a href="https://open.spotify.com/show/4PDEqJu1u06pqcvBFF4BRA" target="blank"><img src="https://www.freepnglogos.com/images/spotify-logo-png-7078.html" alt="Podcast" /></a> </p>
 
 - 🌱 I’m currently learning **ML data hangling and Web development**
 
