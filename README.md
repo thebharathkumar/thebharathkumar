@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **ML data hangling and Web development**
 
-- 📝 I regularly write articles on [https://medium.com/@bharath.kr702](https://medium.com/@bharath.kr702)
+- 📝 I regularly write articles on [https://medium.com/@thebharathkumar](https://medium.com/@thebharathkumar)
 
 - 📫 How to reach me **https://linktr.ee/Bharath_kumar_R**
 
