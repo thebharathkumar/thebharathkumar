@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Bharath kumar</h1>
 <h3 align="center">Student with keen intrest in AI/ML and APP Development</h3>
 
-<p align="left"> <a href="https://twitter.com/passdweed" target="blank"><img src="https://img.shields.io/twitter/follow/passdweed?logo=twitter&style=for-the-badge" alt="passdweed" /></a> </p>
-<p align="left"> <a href="https://open.spotify.com/show/4PDEqJu1u06pqcvBFF4BRA" target="blank"><img src="https://www.freepnglogos.com/images/spotify-logo-png-7078.html" alt="Podcast" /></a> </p>
+<p align="center"> <a href="https://twitter.com/passdweed" target="blank"><img src="https://img.shields.io/twitter/follow/passdweed?logo=twitter&style=for-the-badge" alt="passdweed" /></a>  </p>
+<p align="right"> <a href="https://open.spotify.com/show/4PDEqJu1u06pqcvBFF4BRA" target="blank"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" width="20" alt="spotify download logo" /></a> Podcast </p>
 
 - 🌱 I’m currently learning **ML data hangling and Web development**
 
@@ -10,7 +10,7 @@
 
 - 📫 How to reach me **https://linktr.ee/Bharath_kumar_R**
 
-- ⚡ Fun fact **I really lack the words to compliment myself**
+- ⚡ Fun fact **Well...**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
