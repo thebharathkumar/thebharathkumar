@@ -8,7 +8,7 @@
 
 - 📝 I regularly write articles on [https://medium.com/@thebharathkumar](https://medium.com/@thebharathkumar)
 
-- 📫 How to reach me **https://linktr.ee/Bharath_kumar_R**
+- 📫 How to reach me **https://thebharathkumar.netlify.app**
 
 - ⚡ Fun fact **Well...**
 
