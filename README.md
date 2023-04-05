@@ -13,7 +13,7 @@
 - ⚡ Fun fact **Well...**
 
 <h3 align="left">Connect with me:</h3>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=thebharathkumar&label=Profile%20views&color=0e75b6&style=flat" alt="thebharathkumar" /> </p>
+![](https://komarev.com/ghpvc/?username=thebharathkumar&color=green)
 <p align="left">
 <a href="https://twitter.com/rainmaker__007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rainmaker__007" height="30" width="40" /></a>
   <a href="https://instagram.com/https://www.instagram.com/bharath.kr_10/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/bharath.kr_10/" height="30" width="40" /></a>
