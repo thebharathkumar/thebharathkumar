@@ -4,7 +4,7 @@
 <p align="center"> <a href="https://twitter.com/passdweed" target="blank"><img src="https://img.shields.io/twitter/follow/passdweed?style=social" alt="passdweed" /></a>  </p>
 <p align="right"> <a href="https://open.spotify.com/show/4PDEqJu1u06pqcvBFF4BRA" target="blank"><img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-download-logo-30.png" width="20" alt="spotify download logo" /></a> Podcast </p>
 
-- 🌱 I’m currently learning **ML data hangling and Web development**
+- 🌱 I’m currently learning **ML data handling and Web development**
 
 - 📝 I regularly write articles on [https://medium.com/@thebharathkumar](https://medium.com/@thebharathkumar)
 
@@ -15,7 +15,7 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=thebharathkumar&label=Profile%20views&color=0e75b6&style=flat" alt="thebharathkumar" /> </p>
 <p align="left">
-<a href="https://twitter.com/rainmaker__007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rainmaker__007" height="30" width="40" /></a>
+<a href="https://twitter.com/passdweed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="passdweed" height="30" width="40" /></a>
   <a href="https://instagram.com/https://www.instagram.com/bharath.kr_10/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/bharath.kr_10/" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/thebharathkumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thebharathkumar" height="30" width="40" /></a>
 <a href="https://medium.com/@thebharathkumar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@bharath.kr702" height="30" width="40" /></a>
