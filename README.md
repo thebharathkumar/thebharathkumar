@@ -25,7 +25,7 @@
 - 📝 I regularly write articles on [Medium](https://medium.com/@thebharathkumar)
 - 🎓 Studying Computer Science with specialization in Artificial Intelligence
 - 💬 Ask me about **PyTorch, Computer Vision, CNN architectures, and AI Research**
-- 📫 Reach me at: [My Portfolio](https://thebharathkumar.netlify.app)
+- 📫 Reach me at: [My Portfolio](https://thebharath.co)
 - ⚡ Fun fact: **I can solve a Rubik's cube in under 2 minutes**
 
 <br clear="right"/>
