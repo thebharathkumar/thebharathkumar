@@ -168,20 +168,11 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=thebharathkumar&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
   <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=thebharathkumar&theme=tokyonight&hide_border=true" alt="Streak Stats" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thebharathkumar&layout=compact&theme=tokyonight&hide_border=true&langs_count=10&hide=html,css" alt="Top Languages" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=thebharathkumar&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
-</div>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=thebharathkumar&theme=algolia&column=7&margin-w=15&margin-h=15&no-frame=true" alt="Trophies" />
 </div>
 
 ## 🤝 Let's Connect
