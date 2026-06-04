@@ -168,10 +168,6 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=thebharathkumar&theme=tokyonight&hide_border=true" alt="Streak Stats" />
-</div>
-
-<div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=thebharathkumar&theme=react-dark&hide_border=true&area=true" width="100%" alt="Activity Graph" />
 </div>
 
