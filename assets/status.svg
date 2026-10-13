@@ -1,0 +1,423 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 879" width="1000" height="879" role="img" aria-label="Live status page for thebharathkumar: 610 contributions in the last year, 6 of 7 CI pipelines passing.">
+<defs>
+  <clipPath id="frame"><rect width="1000" height="879" rx="16"/></clipPath>
+  <radialGradient id="glow" cx="88%" cy="0%" r="65%"><stop offset="0%" stop-color="#7C6CF2" stop-opacity=".30"/><stop offset="100%" stop-color="#7C6CF2" stop-opacity="0"/></radialGradient>
+  <linearGradient id="nm" x1="0" x2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#C4BBFF"/></linearGradient>
+  <style>
+    .m{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono','Liberation Mono',monospace} .s{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif}
+    .in{opacity:0;animation:in .5s ease-out forwards}
+    @keyframes in{to{opacity:1}}
+  </style>
+</defs>
+<g clip-path="url(#frame)"><rect width="1000" height="879" fill="#0B0E14"/><rect width="1000" height="879" fill="url(#glow)"/>
+<circle cx="46" cy="36" r="4" fill="#3FB950"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="46" cy="36" r="4" fill="none" stroke="#3FB950" stroke-width="1.5"><animate attributeName="r" values="4;11" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="1.8s" repeatCount="indefinite"/></circle>
+<text x="60" y="40" class="m" font-size="13" fill="#6B7689">LIVE  ·  status / thebharathkumar</text>
+<text x="960" y="40" class="m" font-size="13" fill="#6B7689" text-anchor="end">refreshed 2026-10-13 07:54 UTC</text>
+<text x="40" y="104" class="s in" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#nm)">Bharath Kumar Rajesh</text>
+<text x="42" y="140" class="s in" font-size="18" fill="#A8B3C7" style="animation-delay:.15s">AI Engineer. Agents fail quietly. I build the tooling that makes them fail loudly.</text>
+<line x1="40" y1="166" x2="960" y2="166" stroke="#1F2633"/>
+<text x="40" y="198" class="m" font-size="11" letter-spacing="1.5" fill="#6B7689">CONTRIBUTIONS · LAST 12 MONTHS</text>
+<text x="820" y="198" class="m" font-size="11" fill="#6B7689">less</text>
+<rect x="854" y="189" width="10" height="10" rx="2" fill="#161B26"/>
+<rect x="868" y="189" width="10" height="10" rx="2" fill="#3B2F7A"/>
+<rect x="882" y="189" width="10" height="10" rx="2" fill="#5A48C2"/>
+<rect x="896" y="189" width="10" height="10" rx="2" fill="#7C6CF2"/>
+<rect x="910" y="189" width="10" height="10" rx="2" fill="#B7ACFF"/>
+<text x="928" y="198" class="m" font-size="11" fill="#6B7689">more</text>
+<rect x="40.0" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="40.0" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.30s"/>
+<rect x="57.4" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="57.4" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.31s"/>
+<rect x="74.7" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="74.7" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.32s"/>
+<rect x="92.1" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<text x="92.1" y="347.5" class="m" font-size="10.5" fill="#6B7689">Nov</text>
+<rect x="92.1" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="92.1" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="92.1" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="92.1" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="92.1" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="92.1" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.34s"/>
+<rect x="109.4" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="109.4" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.35s"/>
+<rect x="126.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.36s"/>
+<rect x="126.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.36s"/>
+<rect x="144.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.37s"/>
+<rect x="144.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.37s"/>
+<rect x="161.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="161.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.38s"/>
+<rect x="178.9" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.40s"/>
+<text x="178.9" y="347.5" class="m" font-size="10.5" fill="#6B7689">Dec</text>
+<rect x="178.9" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.40s"/>
+<rect x="178.9" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.40s"/>
+<rect x="178.9" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.40s"/>
+<rect x="178.9" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.40s"/>
+<rect x="178.9" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.40s"/>
+<rect x="178.9" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.40s"/>
+<rect x="196.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="196.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.41s"/>
+<rect x="213.6" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="213.6" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.42s"/>
+<rect x="230.9" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="230.9" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.43s"/>
+<rect x="248.3" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<text x="248.3" y="347.5" class="m" font-size="10.5" fill="#6B7689">Jan</text>
+<rect x="248.3" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<rect x="248.3" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<rect x="248.3" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.44s"/>
+<rect x="248.3" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<rect x="248.3" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<rect x="248.3" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.44s"/>
+<rect x="265.7" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="265.7" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.46s"/>
+<rect x="283.0" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="283.0" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.47s"/>
+<rect x="300.4" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.48s"/>
+<rect x="300.4" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.48s"/>
+<rect x="317.7" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.49s"/>
+<text x="317.7" y="347.5" class="m" font-size="10.5" fill="#6B7689">Feb</text>
+<rect x="317.7" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.49s"/>
+<rect x="317.7" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.49s"/>
+<rect x="317.7" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.49s"/>
+<rect x="317.7" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.49s"/>
+<rect x="317.7" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.49s"/>
+<rect x="317.7" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.49s"/>
+<rect x="335.1" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.50s"/>
+<rect x="335.1" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.50s"/>
+<rect x="352.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.52s"/>
+<rect x="352.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.52s"/>
+<rect x="369.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.53s"/>
+<rect x="369.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.53s"/>
+<rect x="387.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<text x="387.2" y="347.5" class="m" font-size="10.5" fill="#6B7689">Mar</text>
+<rect x="387.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<rect x="387.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.54s"/>
+<rect x="387.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<rect x="387.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<rect x="387.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<rect x="387.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.54s"/>
+<rect x="404.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="404.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.55s"/>
+<rect x="421.9" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.56s"/>
+<rect x="421.9" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.56s"/>
+<rect x="439.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.58s"/>
+<rect x="439.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.58s"/>
+<rect x="456.6" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.59s"/>
+<rect x="456.6" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.59s"/>
+<rect x="474.0" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.60s"/>
+<text x="474.0" y="347.5" class="m" font-size="10.5" fill="#6B7689">Apr</text>
+<rect x="474.0" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.60s"/>
+<rect x="474.0" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.60s"/>
+<rect x="474.0" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.60s"/>
+<rect x="474.0" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.60s"/>
+<rect x="474.0" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.60s"/>
+<rect x="474.0" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.60s"/>
+<rect x="491.3" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="491.3" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.61s"/>
+<rect x="508.7" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.62s"/>
+<rect x="508.7" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.62s"/>
+<rect x="526.0" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.64s"/>
+<rect x="526.0" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.64s"/>
+<rect x="543.4" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.65s"/>
+<text x="543.4" y="347.5" class="m" font-size="10.5" fill="#6B7689">May</text>
+<rect x="543.4" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.65s"/>
+<rect x="543.4" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.65s"/>
+<rect x="543.4" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.65s"/>
+<rect x="543.4" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.65s"/>
+<rect x="543.4" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.65s"/>
+<rect x="543.4" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.65s"/>
+<rect x="560.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.66s"/>
+<rect x="560.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.66s"/>
+<rect x="578.1" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.67s"/>
+<rect x="578.1" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.67s"/>
+<rect x="595.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="595.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.68s"/>
+<rect x="612.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.70s"/>
+<rect x="612.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.70s"/>
+<rect x="630.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.71s"/>
+<text x="630.2" y="347.5" class="m" font-size="10.5" fill="#6B7689">Jun</text>
+<rect x="630.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.71s"/>
+<rect x="630.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.71s"/>
+<rect x="630.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.71s"/>
+<rect x="630.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.71s"/>
+<rect x="630.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.71s"/>
+<rect x="630.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.71s"/>
+<rect x="647.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.72s"/>
+<rect x="647.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.72s"/>
+<rect x="664.9" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.73s"/>
+<rect x="664.9" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.73s"/>
+<rect x="682.3" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="682.3" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.74s"/>
+<rect x="699.6" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.76s"/>
+<text x="699.6" y="347.5" class="m" font-size="10.5" fill="#6B7689">Jul</text>
+<rect x="699.6" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.76s"/>
+<rect x="699.6" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.76s"/>
+<rect x="699.6" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.76s"/>
+<rect x="699.6" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.76s"/>
+<rect x="699.6" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.76s"/>
+<rect x="699.6" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.76s"/>
+<rect x="717.0" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.77s"/>
+<rect x="717.0" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.77s"/>
+<rect x="734.3" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.78s"/>
+<rect x="734.3" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.78s"/>
+<rect x="751.7" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.79s"/>
+<rect x="751.7" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.79s"/>
+<rect x="769.1" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<text x="769.1" y="347.5" class="m" font-size="10.5" fill="#6B7689">Aug</text>
+<rect x="769.1" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="769.1" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="769.1" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="769.1" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="769.1" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="769.1" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.80s"/>
+<rect x="786.4" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="786.4" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.82s"/>
+<rect x="803.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="803.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.83s"/>
+<rect x="821.1" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.84s"/>
+<rect x="821.1" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.84s"/>
+<rect x="838.5" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.85s"/>
+<rect x="838.5" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.85s"/>
+<rect x="855.8" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<text x="855.8" y="347.5" class="m" font-size="10.5" fill="#6B7689">Sep</text>
+<rect x="855.8" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<rect x="855.8" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<rect x="855.8" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.86s"/>
+<rect x="855.8" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<rect x="855.8" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<rect x="855.8" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.86s"/>
+<rect x="873.2" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.88s"/>
+<rect x="873.2" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.88s"/>
+<rect x="890.6" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#3B2F7A" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#B7ACFF" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.89s"/>
+<rect x="890.6" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.89s"/>
+<rect x="907.9" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="907.9" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.90s"/>
+<rect x="925.3" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.91s"/>
+<text x="925.3" y="347.5" class="m" font-size="10.5" fill="#6B7689">Oct</text>
+<rect x="925.3" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.91s"/>
+<rect x="925.3" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.91s"/>
+<rect x="925.3" y="266.1" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.91s"/>
+<rect x="925.3" y="283.4" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.91s"/>
+<rect x="925.3" y="300.8" width="14.4" height="14.4" rx="2.5" fill="#7C6CF2" class="in" style="animation-delay:0.91s"/>
+<rect x="925.3" y="318.2" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.91s"/>
+<rect x="942.6" y="214.0" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.92s"/>
+<rect x="942.6" y="231.4" width="14.4" height="14.4" rx="2.5" fill="#161B26" class="in" style="animation-delay:0.92s"/>
+<rect x="942.6" y="248.7" width="14.4" height="14.4" rx="2.5" fill="#5A48C2" class="in" style="animation-delay:0.92s"/>
+<g class="in" style="animation-delay:0.90s"><rect x="40.0" y="369.5" width="218.0" height="86" rx="10" fill="#11161F" stroke="#1F2633"/><text x="56.0" y="403.5" class="s" font-size="26" font-weight="700" fill="#E6EDF3">610</text><text x="56.0" y="424.5" class="m" font-size="11.5" fill="#A8B3C7">contributions</text><text x="56.0" y="440.5" class="m" font-size="11" fill="#6B7689">in the last 12 months</text></g>
+<g class="in" style="animation-delay:1.00s"><rect x="274.0" y="369.5" width="218.0" height="86" rx="10" fill="#11161F" stroke="#1F2633"/><text x="290.0" y="403.5" class="s" font-size="26" font-weight="700" fill="#E6EDF3">89</text><text x="290.0" y="424.5" class="m" font-size="11.5" fill="#A8B3C7">active days</text><text x="290.0" y="440.5" class="m" font-size="11" fill="#6B7689">of the last 367 days</text></g>
+<g class="in" style="animation-delay:1.10s"><rect x="508.0" y="369.5" width="218.0" height="86" rx="10" fill="#11161F" stroke="#1F2633"/><text x="524.0" y="403.5" class="s" font-size="26" font-weight="700" fill="#E6EDF3">6/7</text><text x="524.0" y="424.5" class="m" font-size="11.5" fill="#A8B3C7">CI pipelines green</text><text x="524.0" y="440.5" class="m" font-size="11" fill="#6B7689">3 repos have no CI yet</text></g>
+<g class="in" style="animation-delay:1.20s"><rect x="742.0" y="369.5" width="218.0" height="86" rx="10" fill="#11161F" stroke="#1F2633"/><text x="758.0" y="403.5" class="s" font-size="26" font-weight="700" fill="#E6EDF3">3 days ago</text><text x="758.0" y="424.5" class="m" font-size="11.5" fill="#A8B3C7">last ship</text><text x="758.0" y="440.5" class="m" font-size="11" fill="#6B7689">gcf-virome</text></g>
+<text x="40" y="499.5" class="m" font-size="11" letter-spacing="1.5" fill="#6B7689">SERVICE</text><text x="270" y="499.5" class="m" font-size="11" letter-spacing="1.5" fill="#6B7689">PROOF</text><text x="680" y="499.5" class="m" font-size="11" letter-spacing="1.5" fill="#6B7689">CI</text><text x="960" y="499.5" class="m" font-size="11" letter-spacing="1.5" fill="#6B7689" text-anchor="end">LAST SHIP</text><line x1="40" y1="509.5" x2="960" y2="509.5" stroke="#1F2633"/>
+<g class="in" style="animation-delay:1.30s"><rect x="32" y="514.5" width="936" height="30" rx="6" fill="#11161F"/><text x="40" y="533.5" class="m" font-size="14" fill="#E6EDF3">gcf-virome</text><text x="270" y="533.5" class="m" font-size="12.5" fill="#A8B3C7">40 validator tests · null result reported as null</text><circle cx="687" cy="529.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 529.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="533.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="533.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">3 days ago</text></g>
+<g class="in" style="animation-delay:1.37s"><text x="40" y="563.5" class="m" font-size="14" fill="#E6EDF3">downgrade</text><text x="270" y="563.5" class="m" font-size="12.5" fill="#A8B3C7">SPRT + Benjamini-Hochberg regression stats</text><circle cx="687" cy="559.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 559.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="563.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="563.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">4 days ago</text></g>
+<g class="in" style="animation-delay:1.44s"><rect x="32" y="574.5" width="936" height="30" rx="6" fill="#11161F"/><text x="40" y="593.5" class="m" font-size="14" fill="#E6EDF3">Claimtrace</text><text x="270" y="593.5" class="m" font-size="12.5" fill="#A8B3C7">every claim traced to an exact char span</text><circle cx="687" cy="589.0094339622642" r="7" fill="#6B7689"/><path d="M684 589.0094339622642 h6" stroke="#0B0E14" stroke-width="1.8" stroke-linecap="round"/><text x="700" y="593.5" class="m" font-size="12.5" fill="#A8B3C7">no CI</text><text x="960" y="593.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.51s"><text x="40" y="623.5" class="m" font-size="14" fill="#E6EDF3">agent-flight-recorder</text><text x="270" y="623.5" class="m" font-size="12.5" fill="#A8B3C7">Claude Code plugin · 90% coverage gate</text><circle cx="687" cy="619.0094339622642" r="7" fill="#F85149"/><path d="M684 616.0094339622642 l6 6 M690 616.0094339622642 l-6 6" stroke="#0B0E14" stroke-width="1.8" stroke-linecap="round"/><text x="700" y="623.5" class="m" font-size="12.5" fill="#A8B3C7">failing</text><text x="960" y="623.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.58s"><rect x="32" y="634.5" width="936" height="30" rx="6" fill="#11161F"/><text x="40" y="653.5" class="m" font-size="14" fill="#E6EDF3">mcp-otel-audit</text><text x="270" y="653.5" class="m" font-size="12.5" fill="#A8B3C7">0 of 4 MCP libs ship the spec histograms</text><circle cx="687" cy="649.0094339622642" r="7" fill="#6B7689"/><path d="M684 649.0094339622642 h6" stroke="#0B0E14" stroke-width="1.8" stroke-linecap="round"/><text x="700" y="653.5" class="m" font-size="12.5" fill="#A8B3C7">no CI</text><text x="960" y="653.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.65s"><text x="40" y="683.5" class="m" font-size="14" fill="#E6EDF3">costfloor</text><text x="270" y="683.5" class="m" font-size="12.5" fill="#A8B3C7">47 tests · Python 3.11 and 3.12</text><circle cx="687" cy="679.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 679.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="683.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="683.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.72s"><rect x="32" y="694.5" width="936" height="30" rx="6" fill="#11161F"/><text x="40" y="713.5" class="m" font-size="14" fill="#E6EDF3">loopcheck</text><text x="270" y="713.5" class="m" font-size="12.5" fill="#A8B3C7">86 tests · recall 0.33, published as-is</text><circle cx="687" cy="709.0094339622642" r="7" fill="#6B7689"/><path d="M684 709.0094339622642 h6" stroke="#0B0E14" stroke-width="1.8" stroke-linecap="round"/><text x="700" y="713.5" class="m" font-size="12.5" fill="#A8B3C7">no CI</text><text x="960" y="713.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.79s"><text x="40" y="743.5" class="m" font-size="14" fill="#E6EDF3">agent-triage</text><text x="270" y="743.5" class="m" font-size="12.5" fill="#A8B3C7">on PyPI · 220+ tests · 93%+ coverage</text><circle cx="687" cy="739.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 739.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="743.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="743.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.86s"><rect x="32" y="754.5" width="936" height="30" rx="6" fill="#11161F"/><text x="40" y="773.5" class="m" font-size="14" fill="#E6EDF3">ForgeSync</text><text x="270" y="773.5" class="m" font-size="12.5" fill="#A8B3C7">125 unit + 75 integration tests</text><circle cx="687" cy="769.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 769.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="773.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="773.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">20 days ago</text></g>
+<g class="in" style="animation-delay:1.93s"><text x="40" y="803.5" class="m" font-size="14" fill="#E6EDF3">estimate-check</text><text x="270" y="803.5" class="m" font-size="12.5" fill="#A8B3C7">6 detectors · zero runtime dependencies</text><circle cx="687" cy="799.0094339622642" r="7" fill="#3FB950"/><path d="M683.5 799.0094339622642 l2.5 2.5 l4.5 -5" stroke="#0B0E14" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><text x="700" y="803.5" class="m" font-size="12.5" fill="#A8B3C7">passing</text><text x="960" y="803.5" class="m" font-size="12.5" fill="#A8B3C7" text-anchor="end">28 days ago</text></g>
+<text x="40" y="857" class="m" font-size="11" fill="#6B7689">Contributions, CI state and ship dates come from the GitHub API on every run. Proof lines are copied from each repo&apos;s README.</text>
+</g><rect x=".5" y=".5" width="999" height="878" rx="15.5" fill="none" stroke="#1F2633"/></svg>

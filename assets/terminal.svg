@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 499" width="1000" height="499" role="img" aria-label="Terminal: pytest run over Bharath's verified metrics, 9 passed, 0 fabricated">
+  <defs>
+    <clipPath id="frame"><rect width="1000" height="499" rx="14"/></clipPath>
+    <clipPath id="type"><rect x="28" y="60" width="0" height="30">
+      <animate attributeName="width" from="0" to="260" begin="0.3s" dur="0.9s" fill="freeze" calcMode="discrete" values="0;26;52;78;104;130;156;182;208;234;260" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1"/>
+    </rect></clipPath>
+    <style>
+      .m { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; font-size: 14.5px; }
+      .fg { fill: #E6EDF3; }
+      .dim { fill: #6B7689; }
+      .ok { fill: #3FB950; font-weight: 700; }
+      .acc { fill: #A78BFA; }
+      .l { opacity: 0; animation: in .22s ease-out forwards; }
+      @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { fill-opacity: 0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="499" fill="#0B0E14"/>
+    <rect width="1000" height="38" fill="#11161F"/>
+    <line x1="0" y1="38" x2="1000" y2="38" stroke="#1F2633"/>
+    <circle cx="24" cy="19" r="6" fill="#FF5F57"/>
+    <circle cx="44" cy="19" r="6" fill="#FEBC2E"/>
+    <circle cx="64" cy="19" r="6" fill="#28C840"/>
+    <text x="500" y="24" text-anchor="middle" class="m dim" style="font-size:13px">bharath@nyc: ~/career</text>
+
+    <g clip-path="url(#type)">
+      <text x="28" y="80" class="m"><tspan class="ok">$</tspan><tspan class="fg"> pytest bharath/ -v</tspan></text>
+    </g>
+    <g class="l" style="animation-delay:1.25s">
+      <text x="28" y="108" class="m dim">collected <tspan class="fg">10 items</tspan>  ·  every number traces to a repo, a system, or a paper</text>
+    </g>
+
+  <g class="l" style="animation-delay:1.60s">
+    <text x="28" y="140" class="m"><tspan class="dim">tests/test_production.py::</tspan><tspan class="fg">test_serves_10k_daily_users</tspan></text>
+    <text x="872" y="140" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="140" class="m dim" text-anchor="end">[ 10%]</text>
+  </g>
+  <g class="l" style="animation-delay:1.77s">
+    <text x="28" y="167" class="m"><tspan class="dim">tests/test_production.py::</tspan><tspan class="fg">test_uptime_99_5_percent</tspan></text>
+    <text x="872" y="167" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="167" class="m dim" text-anchor="end">[ 20%]</text>
+  </g>
+  <g class="l" style="animation-delay:1.94s">
+    <text x="28" y="194" class="m"><tspan class="dim">tests/test_production.py::</tspan><tspan class="fg">test_12_zero_regression_releases</tspan></text>
+    <text x="872" y="194" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="194" class="m dim" text-anchor="end">[ 30%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.11s">
+    <text x="28" y="221" class="m"><tspan class="dim">tests/test_rag.py::</tspan><tspan class="fg">test_mrr_at_5_is_0_92_over_50k_docs</tspan></text>
+    <text x="872" y="221" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="221" class="m dim" text-anchor="end">[ 40%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.28s">
+    <text x="28" y="248" class="m"><tspan class="dim">tests/test_evals.py::</tspan><tspan class="fg">test_caught_4_silent_regressions</tspan></text>
+    <text x="872" y="248" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="248" class="m dim" text-anchor="end">[ 50%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.45s">
+    <text x="28" y="275" class="m"><tspan class="dim">tests/test_oss.py::</tspan><tspan class="fg">test_agent_triage_ships_on_pypi</tspan></text>
+    <text x="872" y="275" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="275" class="m dim" text-anchor="end">[ 60%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.62s">
+    <text x="28" y="302" class="m"><tspan class="dim">tests/test_oss.py::</tspan><tspan class="fg">test_faramesh_pr_33_merged</tspan></text>
+    <text x="872" y="302" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="302" class="m dim" text-anchor="end">[ 70%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.79s">
+    <text x="28" y="329" class="m"><tspan class="dim">tests/test_audits.py::</tspan><tspan class="fg">test_0_of_4_mcp_libs_ship_spec_histograms</tspan></text>
+    <text x="872" y="329" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="329" class="m dim" text-anchor="end">[ 80%]</text>
+  </g>
+  <g class="l" style="animation-delay:2.96s">
+    <text x="28" y="356" class="m"><tspan class="dim">tests/test_research.py::</tspan><tspan class="fg">test_springer_nature_2023</tspan></text>
+    <text x="872" y="356" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="356" class="m dim" text-anchor="end">[ 90%]</text>
+  </g>
+  <g class="l" style="animation-delay:3.13s">
+    <text x="28" y="383" class="m"><tspan class="dim">tests/test_integrity.py::</tspan><tspan class="fg">test_no_fabricated_metrics</tspan></text>
+    <text x="872" y="383" class="m ok" text-anchor="end">PASSED</text>
+    <text x="972" y="383" class="m dim" text-anchor="end">[100%]</text>
+  </g>
+
+  <g class="l" style="animation-delay:3.55s">
+    <line x1="28" y1="411" x2="972" y2="411" stroke="#1F2633"/>
+    <text x="500" y="433" text-anchor="middle" class="m ok" style="font-size:16px">10 passed  ·  0 failed  ·  0 fabricated</text>
+  </g>
+  <g class="l" style="animation-delay:4.00s">
+    <text x="28" y="469" class="m"><tspan class="ok">$</tspan><tspan class="acc"> open_to</tspan><tspan class="fg"> AI Engineer · Applied AI · Forward Deployed </tspan><tspan class="fg cur">▋</tspan></text>
+  </g>
+  </g>
+  <rect x="0.5" y="0.5" width="999" height="498" rx="13.5" fill="none" stroke="#1F2633"/>
+</svg>
