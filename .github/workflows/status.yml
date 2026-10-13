@@ -1,0 +1,50 @@
+name: Refresh status page
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/status.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: status-page
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Test the generator
+        run: python3 scripts/test_status_page.py
+
+      - name: Fetch live data and render
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS_TOKEN: ${{ secrets.STATUS_TOKEN }}
+        run: python3 scripts/status_page.py --out assets/status.svg
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/status.svg
+          if git diff --cached --quiet; then
+            echo "No change"
+          else
+            git commit -m "chore: refresh status page"
+            git push
+          fi
