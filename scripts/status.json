@@ -1,0 +1,17 @@
+{
+  "owner": "thebharathkumar",
+  "name": "Bharath Kumar Rajesh",
+  "tagline": "AI Engineer. Agents fail quietly. I build the tooling that makes them fail loudly.",
+  "services": [
+    {"repo": "gcf-virome",            "proof": "40 validator tests · null result reported as null"},
+    {"repo": "downgrade",             "proof": "SPRT + Benjamini-Hochberg regression stats"},
+    {"repo": "Claimtrace",            "proof": "every claim traced to an exact char span"},
+    {"repo": "estimate-check",        "proof": "6 detectors · zero runtime dependencies"},
+    {"repo": "ForgeSync",             "proof": "125 unit + 75 integration tests"},
+    {"repo": "loopcheck",             "proof": "86 tests · recall 0.33, published as-is"},
+    {"repo": "costfloor",             "proof": "47 tests · Python 3.11 and 3.12"},
+    {"repo": "agent-triage",          "proof": "on PyPI · 220+ tests · 93%+ coverage"},
+    {"repo": "agent-flight-recorder", "proof": "Claude Code plugin · 90% coverage gate"},
+    {"repo": "mcp-otel-audit",        "proof": "0 of 4 MCP libs ship the spec histograms"}
+  ]
+}
