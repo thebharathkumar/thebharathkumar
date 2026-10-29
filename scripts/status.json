@@ -14,6 +14,7 @@
     {"repo": "costfloor",             "proof": "47 tests · Python 3.11 and 3.12"},
     {"repo": "agent-triage",          "proof": "on PyPI · 220+ tests · 93%+ coverage"},
     {"repo": "agent-flight-recorder", "proof": "Claude Code plugin · 90% coverage gate"},
-    {"repo": "mcp-otel-audit",        "proof": "0 of 4 MCP libs ship the spec histograms"}
+    {"repo": "mcp-otel-audit",        "proof": "0 of 4 MCP libs ship the spec histograms"},
+    {"repo": "redline-pilot",         "proof": "First-pass NDA review against a playbook that…"}
   ]
 }
