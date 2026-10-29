@@ -2,8 +2,9 @@
   "owner": "thebharathkumar",
   "name": "Bharath Kumar Rajesh",
   "tagline": "AI Engineer. Agents fail quietly. I build the tooling that makes them fail loudly.",
+  "auto": {"enabled": true, "since": "2026-10-01", "exclude": ["test"]},
   "services": [
-    {"repo": "shipcheck", "proof": "179 tests · SHIP / REVIEW / BLOCK gate"},
+    {"repo": "shipcheck",             "proof": "179 tests · SHIP / REVIEW / BLOCK gate"},
     {"repo": "gcf-virome",            "proof": "40 validator tests · null result reported as null"},
     {"repo": "downgrade",             "proof": "SPRT + Benjamini-Hochberg regression stats"},
     {"repo": "Claimtrace",            "proof": "every claim traced to an exact char span"},
