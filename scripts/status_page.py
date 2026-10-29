@@ -3,7 +3,9 @@
 
 Every live number on the page (contributions, CI state, ship dates) is fetched
 from the GitHub API on each run. The one-line proof per service is static text
-from status.json, copied from that repo's own README.
+from status.json. New public repos are discovered on each run (see discover())
+and, with --update-config, written back to status.json with their description
+as the proof line.
 
 Usage:
   GITHUB_TOKEN=... python3 scripts/status_page.py --out assets/status.svg
@@ -66,12 +68,24 @@ def calendar_days(graphql_response: dict) -> tuple[int, list[list]]:
     return cal["totalContributions"], days
 
 
+def list_repos(owner: str, token: str) -> list[dict]:
+    """The owner's repos, most recently pushed first. One page covers anything new."""
+    return _request(f"{API}/users/{owner}/repos?type=owner&sort=pushed&per_page=100", token)
+
+
 def fetch(config: dict, token: str) -> dict:
     owner = config["owner"]
     repos = []
     for svc in config["services"]:
         name = svc["repo"]
-        meta = _request(f"{API}/repos/{owner}/{name}", token)
+        try:
+            meta = _request(f"{API}/repos/{owner}/{name}", token)
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+            # Deleted, renamed or made private: leave it off the board rather than fail the run.
+            print(f"skipping {name}: not found", file=sys.stderr)
+            continue
         branch = meta.get("default_branch", "main")
         runs = _request(f"{API}/repos/{owner}/{name}/actions/runs?branch={branch}&per_page=20", token)
         repos.append({
@@ -92,6 +106,67 @@ def fetch(config: dict, token: str) -> dict:
         "contributions": {"total": total, "days": days},
         "repos": repos,
     }
+
+# ---------------------------------------------------------------- discover
+
+PROOF_MAX = 52  # what fits in the proof column at 12.5px mono
+
+
+def short(text: str, limit: int = PROOF_MAX) -> str:
+    text = " ".join(text.split())
+    if len(text) <= limit:
+        return text
+    cut = text[: limit - 1]
+    if " " in cut[limit // 2:]:  # end on a whole word when one is close
+        cut = cut.rsplit(" ", 1)[0]
+    return cut.rstrip(" ,.;:-") + "…"
+
+
+def discover(config: dict, listing: list[dict]) -> list[dict]:
+    """New public repos that belong on the board, as service entries.
+
+    A repo qualifies when it is public, not a fork, not archived, not the profile
+    repo, not excluded, not already listed, created on or after auto.since, and has
+    a description. The description becomes its proof line until a real number
+    replaces it in status.json. No description means no row: that is the opt-in.
+    """
+    auto = config.get("auto", {})
+    if not auto.get("enabled", True):
+        return []
+    have = {s["repo"].lower() for s in config["services"]}
+    skip = {r.lower() for r in auto.get("exclude", [])} | {config["owner"].lower()}
+    since = auto.get("since", "")
+    found = []
+    for r in listing:
+        name = r.get("name", "")
+        desc = (r.get("description") or "").strip()
+        key = name.lower()
+        if (not name or r.get("private") or r.get("fork") or r.get("archived")
+                or key in have or key in skip or not desc
+                or str(r.get("created_at", "")) < since):
+            continue
+        found.append({"repo": name, "proof": short(desc)})
+        have.add(key)
+    return found
+
+
+def dump_config(config: dict) -> str:
+    """status.json with one service per line and the proof column aligned."""
+    out = ["{"]
+    for k, v in config.items():
+        if k != "services":
+            out.append(f"  {json.dumps(k)}: {json.dumps(v, ensure_ascii=False)},")
+    width = max((len(json.dumps(s["repo"], ensure_ascii=False)) + 1 for s in config["services"]), default=0)
+    rows = []
+    for s in config["services"]:
+        rest = "".join(f", {json.dumps(k)}: {json.dumps(v, ensure_ascii=False)}"
+                       for k, v in s.items() if k not in ("repo", "proof"))
+        repo = (json.dumps(s["repo"], ensure_ascii=False) + ",").ljust(width)
+        rows.append(f'    {{"repo": {repo} "proof": {json.dumps(s.get("proof", ""), ensure_ascii=False)}{rest}}}')
+    out.append('  "services": [')
+    out.append(",\n".join(rows))
+    out += ["  ]", "}"]
+    return "\n".join(out) + "\n"
 
 # ---------------------------------------------------------------- derive
 
@@ -271,7 +346,7 @@ def render(s: dict, config: dict) -> str:
 
     foot_y = H - 22
     a(f'<text x="{pad}" y="{foot_y}" class="m" font-size="11" fill="{MUTED}">Contributions, CI state and ship dates come from the GitHub API on every run. '
-      f'Proof lines are copied from each repo&apos;s README.</text>')
+      f'New public repos join automatically.</text>')
     a(f'</g><rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="15.5" fill="none" stroke="{LINE}"/></svg>')
     return "\n".join(out)
 
@@ -284,6 +359,8 @@ def main() -> int:
     ap.add_argument("--snapshot", help="render from a saved snapshot instead of calling the API")
     ap.add_argument("--save-snapshot", help="write the fetched data here")
     ap.add_argument("--out", default="assets/status.svg")
+    ap.add_argument("--update-config", action="store_true",
+                    help="add newly discovered public repos to the config file")
     args = ap.parse_args()
 
     config = json.loads(Path(args.config).read_text())
@@ -297,6 +374,12 @@ def main() -> int:
             print("Set GITHUB_TOKEN (or STATUS_TOKEN); the GraphQL calendar needs one.", file=sys.stderr)
             return 2
         try:
+            added = discover(config, list_repos(config["owner"], token))
+            if added:
+                config["services"].extend(added)
+                print("discovered: " + ", ".join(s["repo"] for s in added))
+                if args.update_config:
+                    Path(args.config).write_text(dump_config(config))
             snap = fetch(config, token)
         except urllib.error.HTTPError as e:
             print(f"GitHub API error {e.code} on {e.url}: {e.read()[:300]!r}", file=sys.stderr)
