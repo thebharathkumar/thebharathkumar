@@ -62,8 +62,63 @@ def test_seed_snapshot_renders_and_matches_its_own_totals():
     assert s["total"] == sum(c for _, c in snap["contributions"]["days"])
     svg = sp.render(s, config)
     assert svg.startswith("<svg") and svg.rstrip().endswith("</svg>")
-    for svc in config["services"]:
-        assert svc["repo"] in svg
+    # Rows come from the snapshot. status.json can list repos the frozen snapshot has
+    # never seen (anything auto-discovered after it was captured), so check those.
+    for repo in snap["repos"]:
+        assert repo["name"] in svg
+
+
+CONFIG = {"owner": "me", "services": [{"repo": "Old", "proof": "x"}],
+          "auto": {"since": "2026-10-01", "exclude": ["junk"]}}
+
+
+def _repo(name, **kw):
+    r = {"name": name, "description": "does a thing", "created_at": "2026-10-20T00:00:00Z",
+         "private": False, "fork": False, "archived": False}
+    r.update(kw)
+    return r
+
+
+def test_discover_adds_new_public_repo_with_description_as_proof():
+    assert sp.discover(CONFIG, [_repo("fresh")]) == [{"repo": "fresh", "proof": "does a thing"}]
+
+
+def test_discover_skips_everything_that_should_not_be_on_the_board():
+    listing = [
+        _repo("forked", fork=True),
+        _repo("secret", private=True),
+        _repo("dusty", archived=True),
+        _repo("bare", description=None),
+        _repo("blank", description="   "),
+        _repo("ancient", created_at="2025-01-01T00:00:00Z"),
+        _repo("JUNK"),
+        _repo("old"),
+        _repo("ME"),
+    ]
+    assert sp.discover(CONFIG, listing) == []
+
+
+def test_discover_respects_disabled_and_dedupes():
+    off = dict(CONFIG, auto={"enabled": False})
+    assert sp.discover(off, [_repo("fresh")]) == []
+    assert len(sp.discover(CONFIG, [_repo("fresh"), _repo("Fresh")])) == 1
+
+
+def test_short_truncates_to_column_width():
+    long = "First-pass NDA review against a playbook that writes Word tracked changes"
+    out = sp.short(long)
+    assert len(out) <= sp.PROOF_MAX and out.endswith("…")
+    assert sp.short("  two   spaces ") == "two spaces"
+
+
+def test_dump_config_round_trips_and_aligns():
+    here = Path(__file__).resolve().parent
+    config = json.loads((here / "status.json").read_text())
+    config["services"].append({"repo": "a-much-longer-repo-name", "proof": "“quotes” · 100%"})
+    text = sp.dump_config(config)
+    assert json.loads(text) == config
+    rows = [l for l in text.splitlines() if l.strip().startswith('{"repo"')]
+    assert len({l.index('"proof"') for l in rows}) == 1
 
 
 if __name__ == "__main__":
