@@ -133,6 +133,7 @@ def summarize(snap: dict, config: dict) -> dict:
         "days": days,
         "total": snap["contributions"]["total"],
         "active_days": sum(1 for _, c in days if c > 0),
+        "shipped_30d": sum(1 for x in rows if (now - x["pushed"]).days <= 30),
         "ci_pass": sum(1 for x in with_ci if x["ci"] == "pass"),
         "ci_total": len(with_ci),
         "no_ci": len(rows) - len(with_ci),
@@ -237,8 +238,8 @@ def render(s: dict, config: dict) -> str:
     last = s["last"]
     tiles = [
         (f'{s["total"]:,}', "contributions", "in the last 12 months"),
-        (f'{s["active_days"]}', "active days", f'of the last {len(days)} days'),
-        (f'{s["ci_pass"]}/{s["ci_total"]}', "CI pipelines green", f'{s["no_ci"]} repos have no CI yet' if s["no_ci"] else "every repo has CI"),
+        (f'{s["shipped_30d"]} of {len(s["rows"])}', "repos shipped", "in the last 30 days"),
+        (f'{s["ci_pass"]}/{s["ci_total"]}', "CI pipelines green", f'{s["no_ci"]} repos have no CI yet' if s["no_ci"] else "every listed repo has CI"),
         (last["ago"] if last else "n/a", "last ship", last["name"] if last else ""),
     ]
     gap = 16
