@@ -314,7 +314,7 @@ def render(s: dict, config: dict) -> str:
     tiles = [
         (f'{s["total"]:,}', "contributions", "in the last 12 months"),
         (f'{s["shipped_30d"]} of {len(s["rows"])}', "repos shipped", "in the last 30 days"),
-        (f'{s["ci_pass"]}/{s["ci_total"]}', "CI pipelines green", f'{s["no_ci"]} repos have no CI yet' if s["no_ci"] else "every listed repo has CI"),
+        (f'{s["ci_pass"]}/{s["ci_total"]}', "CI pipelines green", f'{s["no_ci"]} repo{"s have" if s["no_ci"] > 1 else " has"} no CI yet' if s["no_ci"] else "every listed repo has CI"),
         (last["ago"] if last else "n/a", "last ship", last["name"] if last else ""),
     ]
     gap = 16
