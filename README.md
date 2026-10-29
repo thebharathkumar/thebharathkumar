@@ -1,5 +1,5 @@
 <a href="./scripts/status_page.py">
-<img src="./assets/status.svg" width="100%" alt="Live status page for Bharath Kumar Rajesh: contributions over the last 12 months, CI state and last ship date for eleven repos, regenerated daily from the GitHub API." />
+<img src="./assets/status.svg" width="100%" alt="Live status page for Bharath Kumar Rajesh: contributions over the last 12 months, CI state and last ship date for each tracked repo, regenerated daily from the GitHub API. New public repos are added automatically." />
 </a>
 
 <p align="center"><sub>☝️ This board is not a screenshot. A <a href="./.github/workflows/status.yml">GitHub Action</a> rebuilds it every day from the GitHub API. An observability engineer's profile should be observable.</sub></p>
