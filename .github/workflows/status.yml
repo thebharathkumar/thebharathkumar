@@ -35,13 +35,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           STATUS_TOKEN: ${{ secrets.STATUS_TOKEN }}
-        run: python3 scripts/status_page.py --out assets/status.svg
+        run: python3 scripts/status_page.py --update-config --out assets/status.svg
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/status.svg
+          git add assets/status.svg scripts/status.json
           if git diff --cached --quiet; then
             echo "No change"
           else
