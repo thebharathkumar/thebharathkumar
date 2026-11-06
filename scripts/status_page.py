@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render a live status page for a GitHub profile as a single SVG.
 
-Every live number on the page (contributions, CI state, ship dates) is fetched
+Every live number on the page (contributions, CI state) is fetched
 from the GitHub API on each run. The one-line proof per service is static text
 from status.json. New public repos are discovered on each run (see discover())
 and, with --update-config, written back to status.json with their description
@@ -305,11 +305,10 @@ def render(s: dict, config: dict) -> str:
           f'<text x="{x+16:.1f}" y="{tiles_y+71:.1f}" class="m" font-size="11" fill="{MUTED}">{esc(sub)}</text></g>')
 
     # services table
-    cx_proof, cx_ci, cx_ship = pad + 230, pad + 640, W - pad
+    cx_proof, cx_ci = pad + 230, pad + 700
     a(f'<text x="{pad}" y="{table_y:.1f}" class="m" font-size="11" letter-spacing="1.5" fill="{MUTED}">SERVICE</text>'
       f'<text x="{cx_proof}" y="{table_y:.1f}" class="m" font-size="11" letter-spacing="1.5" fill="{MUTED}">PROOF</text>'
       f'<text x="{cx_ci}" y="{table_y:.1f}" class="m" font-size="11" letter-spacing="1.5" fill="{MUTED}">CI</text>'
-      f'<text x="{cx_ship}" y="{table_y:.1f}" class="m" font-size="11" letter-spacing="1.5" fill="{MUTED}" text-anchor="end">LAST SHIP</text>'
       f'<line x1="{pad}" y1="{table_y+10:.1f}" x2="{W-pad}" y2="{table_y+10:.1f}" stroke="{LINE}"/>')
     labels = {"pass": "passing", "fail": "failing", "none": "no CI"}
     for i, r in enumerate(s["rows"]):
@@ -319,11 +318,10 @@ def render(s: dict, config: dict) -> str:
           + f'<text x="{pad}" y="{y:.1f}" class="m" font-size="14" fill="{INK}">{esc(r["name"])}</text>'
           f'<text x="{cx_proof}" y="{y:.1f}" class="m" font-size="12.5" fill="{INK2}">{esc(r["proof"])}</text>'
           + status_icon(r["ci"], cx_ci + 7, y - 4.5)
-          + f'<text x="{cx_ci+20}" y="{y:.1f}" class="m" font-size="12.5" fill="{INK2}">{labels[r["ci"]]}</text>'
-          f'<text x="{cx_ship}" y="{y:.1f}" class="m" font-size="12.5" fill="{INK2}" text-anchor="end">{esc(r["ago"])}</text></g>')
+          + f'<text x="{cx_ci+20}" y="{y:.1f}" class="m" font-size="12.5" fill="{INK2}">{labels[r["ci"]]}</text></g>')
 
     foot_y = H - 22
-    a(f'<text x="{pad}" y="{foot_y}" class="m" font-size="11" fill="{MUTED}">Contributions, CI state and ship dates come from the GitHub API on every run. '
+    a(f'<text x="{pad}" y="{foot_y}" class="m" font-size="11" fill="{MUTED}">Contributions and CI state come from the GitHub API on every run. '
       f'New public repos join automatically.</text>')
     a(f'</g><rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="15.5" fill="none" stroke="{LINE}"/></svg>')
     return "\n".join(out)
