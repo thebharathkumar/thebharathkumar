@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 228" width="1000" height="228" role="img" aria-label="Bharath Kumar Rajesh, AI Engineer at Rolai, New York City. Agents fail quietly. I build the tooling that makes them fail loudly.">
+<defs>
+<radialGradient id="g1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#3FB950" stop-opacity="0.30"/><stop offset="100%" stop-color="#3FB950" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#2F81F7" stop-opacity="0.13"/><stop offset="100%" stop-color="#2F81F7" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#1F2633"/></pattern>
+<style>
+.mono{font-family:ui-monospace,'SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.rot{opacity:0;animation:rot 12s ease-in-out infinite}
+@keyframes rot{0%{opacity:0}4%{opacity:1}29%{opacity:1}33%{opacity:0}100%{opacity:0}}
+</style>
+</defs>
+<rect width="1000" height="228" rx="14" fill="#0B0E14"/>
+<rect width="1000" height="228" rx="14" fill="url(#dots)"/>
+<ellipse cx="240" cy="40" rx="340" ry="150" fill="url(#g1)"/>
+<ellipse cx="820" cy="260" rx="320" ry="150" fill="url(#g2)"/>
+<text x="500" y="72" text-anchor="middle" class="mono" font-size="13" letter-spacing="3.5" fill="#8B93A7">AI ENGINEER · NEW YORK CITY</text>
+<text x="500" y="128" text-anchor="middle" class="sans" font-size="47" font-weight="700" fill="#E6EDF3">Bharath Kumar Rajesh</text>
+<text x="500" y="172" text-anchor="middle" class="mono rot" font-size="17" fill="#7EE787">Agents fail quietly. I build the tooling that makes them fail loudly.</text>
+<text x="500" y="172" text-anchor="middle" class="mono rot" style="animation-delay:4s" font-size="17" fill="#7EE787">Evals · observability · release gates for LLM agents</text>
+<text x="500" y="172" text-anchor="middle" class="mono rot" style="animation-delay:8s" font-size="17" fill="#7EE787">Now building at Rolai</text>
+
+</svg>

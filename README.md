@@ -1,30 +1,24 @@
+<p align="center"><img src="./assets/hero.svg" width="100%" alt="Bharath Kumar Rajesh, AI Engineer at Rolai, New York City. Agents fail quietly. I build the tooling that makes them fail loudly." /></p>
+
+<p align="center">
+<a href="https://thebharath.co"><img src="https://img.shields.io/badge/Portfolio-2EA043?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/thebharathkumar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:bharath.kr702@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://medium.com/@thebharathkumar"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
+</p>
+
 <a href="./scripts/status_page.py">
 <img src="./assets/status.svg" width="100%" alt="Live status page for Bharath Kumar Rajesh: contributions over the last 12 months, CI state and last ship date for each tracked repo, regenerated daily from the GitHub API. New public repos are added automatically." />
 </a>
 
 <p align="center"><sub>☝️ This board is not a screenshot. A <a href="./.github/workflows/status.yml">GitHub Action</a> rebuilds it every day from the GitHub API. An observability engineer's profile should be observable.</sub></p>
 
-<table>
-<tr>
-<td width="62%" valign="top">
+## 🔭 Right now
 
-**Looking for:** AI Engineer · Applied AI Engineer · Forward Deployed Engineer<br/>
-**Based in:** New York City, open to relocation · F-1 OPT<br/>
-**Education:** M.S. Computer Science, Pace University, GPA 3.87<br/>
-**Reach me:** [bharath.kr702@gmail.com](mailto:bharath.kr702@gmail.com) · [thebharath.co](https://thebharath.co) · [LinkedIn](https://linkedin.com/in/thebharathkumar)
-
-</td>
-<td width="38%" valign="top">
-
-**Shipped in production**<br/>
-Multi-agent platform, LangGraph + Claude on Bedrock<br/>
-**10K+** daily users · **99.5%** uptime<br/>
-**0.92** MRR@5 over **50K+** docs<br/>
-**4** silent regressions caught before users
-
-</td>
-</tr>
-</table>
+- **Working:** AI Engineer at Rolai, New York City, since November 2026
+- **Building in the open:** the agent reliability stack below: evals, observability, and release gates for LLM agents
+- **Ask me about:** MCP observability, agent eval design, and catching silent regressions before users do
+- **Background:** M.S. Computer Science, Pace University. Before Rolai I built and operated Pace's multi-agent platform, the production work behind the receipts below
 
 ## ✅ The receipts
 
@@ -47,6 +41,8 @@ Ranks multi-agent failures by severity, frequency, and recovery from OpenTelemet
 
 **On PyPI · 220+ tests · 93%+ coverage**
 
+<img src="https://img.shields.io/github/stars/thebharathkumar/agent-triage?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/agent-triage?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
+
 </td>
 <td width="50%" valign="top">
 
@@ -54,6 +50,8 @@ Ranks multi-agent failures by severity, frequency, and recovery from OpenTelemet
 A reproducible audit of 4 MCP OpenTelemetry libraries. **None of them ship the spec's MCP histograms.**
 
 **A maintainer of Logfire and the MCP Python SDK responded publicly.**
+
+<img src="https://img.shields.io/github/stars/thebharathkumar/mcp-otel-audit?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/mcp-otel-audit?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
 
 </td>
 </tr>
@@ -67,6 +65,8 @@ Release gate for agent changes. Runs the current agent and a proposed change on 
 
 **179 tests · standard library only · offline demo in under 2 seconds**
 
+<img src="https://img.shields.io/github/stars/thebharathkumar/shipcheck?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/shipcheck?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
+
 </td>
 <td width="50%" valign="top">
 
@@ -75,9 +75,37 @@ Financial reconciliation infra with explainable matching and human-approved writ
 
 **125 unit + 75 integration tests on real Postgres and Redis. Scoring runs ~25x faster than ingestion.**
 
+<img src="https://img.shields.io/github/stars/thebharathkumar/ForgeSync?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/ForgeSync?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [project-transfer](https://github.com/thebharathkumar/project-transfer)
+Pace University's course equivalency system as a modern web app: students search about 3,000 pre-approved foreign course transfers instead of emailing the registrar.
+
+**Next.js 15 · TypeScript · Entra ID SSO · async Excel import pipeline · about 240 tests**
+
+<img src="https://img.shields.io/github/stars/thebharathkumar/project-transfer?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/project-transfer?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
+
+</td>
+<td width="50%" valign="top">
+
+### [jober](https://github.com/thebharathkumar/jober)
+Bus Factor: organizational memory that survives turnover. A departing expert's knowledge, captured and answered with citations, calibrated confidence, and abstention when the record is thin.
+
+**RAG · calibration measured against ground truth (ECE) · abstains instead of guessing**
+
+<img src="https://img.shields.io/github/stars/thebharathkumar/jober?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/jober?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
+
 </td>
 </tr>
 </table>
+
+<p align="center"><img src="./assets/demo.svg" width="100%" alt="Real output of shipcheck demo: v2 blocked for introducing 4 new safety failures, v3 sent to review" /></p>
+
+<p align="center"><sub>shipcheck, running for real. It ships with the repo: <code>shipcheck demo</code>, offline, standard library only.</sub></p>
 
 ## 🧪 House rules
 
@@ -115,7 +143,7 @@ end
 B --> R --> O --> F
 F -. lessons .-> B
 
-classDef build fill:#1e1b4b,stroke:#7C6CF2,color:#e6edf3
+classDef build fill:#0d1b2e,stroke:#58A6FF,color:#e6edf3
 classDef route fill:#1c1917,stroke:#F59E0B,color:#e6edf3
 classDef observe fill:#052e2b,stroke:#10B981,color:#e6edf3
 classDef fix fill:#3b0a24,stroke:#EC4899,color:#e6edf3
@@ -177,11 +205,7 @@ Real-time fatigue detection from facial landmarks and eye aspect ratio, using Dl
 
 ## 📜 Certifications
 
-<p>
-<img src="https://img.shields.io/badge/Anthropic-Building_with_Claude_on_Amazon_Bedrock_(2026)-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic: Building with Claude on Amazon Bedrock, 2026" />
-<img src="https://img.shields.io/badge/AWS-Solutions_Architect_Associate_(2026)-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS Solutions Architect Associate, 2026" />
-<img src="https://img.shields.io/badge/Red_Hat-RHCSA_(2022)-EE0000?style=for-the-badge&logo=redhat&logoColor=white" alt="Red Hat Certified System Administrator, 2022" />
-</p>
+Anthropic: Building with Claude on Amazon Bedrock (2026) · AWS Solutions Architect Associate (2026) · Red Hat Certified System Administrator (2022)
 
 ## 🔁 Open source
 
@@ -189,23 +213,45 @@ Real-time fatigue detection from facial landmarks and eye aspect ratio, using Dl
 
 ## 🛠️ Tech stack
 
+<p><img src="https://skillicons.dev/icons?i=python,typescript,go,java,fastapi,react,nextjs,nodejs,postgresql,redis,docker,kubernetes,aws,azure,linux,git&theme=dark" alt="Python, TypeScript, Go, Java, FastAPI, React, Next.js, Node.js, PostgreSQL, Redis, Docker, Kubernetes, AWS, Azure, Linux, Git" /></p>
+
+<details>
+<summary><b>Full table</b></summary>
+
 | Area | Tools |
 |---|---|
 | **AI / LLM** | Claude, Amazon Bedrock, OpenAI, LangGraph, LangChain, MCP, OpenTelemetry (GenAI semconv), RAG, LLM evals, Hugging Face |
 | **ML** | PyTorch, TensorFlow, Keras, scikit-learn, OpenCV, YOLO, ONNX |
-| **Backend** | FastAPI, Fastify, Node.js, Prisma, Zod, BullMQ |
-| **Data** | PostgreSQL, Redis, MongoDB, Elasticsearch, Kafka, DuckDB |
-| **Cloud / Infra** | AWS (incl. CDK), Azure, GCP, Docker, Kubernetes, Terraform, Linux |
+| **Backend** | FastAPI, Fastify, Node.js, Go, Prisma, Zod, BullMQ |
+| **Data** | PostgreSQL, Redis, Kafka (Redpanda), DuckDB, ChromaDB, SQLite |
+| **Cloud / Infra** | AWS (incl. CDK), Azure, Docker, Kubernetes, Linux |
 | **Testing** | pytest, Vitest, Playwright, mutation testing |
 | **Science** | Snakemake, R (vegan), bowtie2, samtools |
 
+</details>
+
+<details>
+<summary><b>🤖 For agents and tools</b> (generated from scripts/facts.json, the same facts as CLAIMS.md)</summary>
+
+```json
+{
+  "name": "Bharath Kumar Rajesh",
+  "role": "AI Engineer",
+  "employer": "Rolai",
+  "location": "New York City",
+  "focus": ["LLM agent evals", "MCP observability", "release gates", "agent reliability"],
+  "top_repos": ["agent-triage", "shipcheck", "ForgeSync", "project-transfer", "downgrade", "jober"],
+  "claims_file": "https://github.com/thebharathkumar/thebharathkumar/blob/main/CLAIMS.md",
+  "contact": "bharath.kr702@gmail.com"
+}
+```
+
+</details>
+
 ## 🤝 Let's connect
 
-<p align="center">
-<a href="https://thebharath.co"><img src="https://img.shields.io/badge/Portfolio-7C6CF2?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/thebharathkumar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:bharath.kr702@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://medium.com/@thebharathkumar"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" /></a>
-</p>
+<p align="center"><sub><a href="https://thebharath.co">thebharath.co</a> · <a href="https://linkedin.com/in/thebharathkumar">LinkedIn</a> · <a href="mailto:bharath.kr702@gmail.com">bharath.kr702@gmail.com</a> · <a href="https://medium.com/@thebharathkumar">Medium</a></sub></p>
 
-<p align="center"><sub>Writing: <a href="https://github.com/thebharathkumar/mcp-otel-audit/blob/main/docs/blog/auditing-mcp-otel.md">Auditing MCP OpenTelemetry instrumentations</a> · more on <a href="https://medium.com/@thebharathkumar">Medium</a></sub></p>
+<p align="center"><sub>Writing: <a href="https://github.com/thebharathkumar/mcp-otel-audit/blob/main/docs/blog/auditing-mcp-otel.md">Auditing MCP OpenTelemetry instrumentations</a> · Off the clock: NYC EDM, house, techno, melodic, bass</sub></p>
+
+<p align="center"><img src="./assets/wave.svg" width="100%" alt="Thanks for stopping by" /></p>

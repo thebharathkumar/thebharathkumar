@@ -259,7 +259,7 @@ def render(s: dict, config: dict) -> str:
     cell = round(step - 3, 1)
     hm_y = 214
 
-    tiles_y = hm_y + 7 * step + 34
+    tiles_y = 190
     tiles_h = 86
     table_y = tiles_y + tiles_h + 44
     row_h = 30
@@ -270,8 +270,8 @@ def render(s: dict, config: dict) -> str:
       f'{s["ci_pass"]} of {s["ci_total"]} CI pipelines passing.">')
     a(f'''<defs>
   <clipPath id="frame"><rect width="{W}" height="{H}" rx="16"/></clipPath>
-  <radialGradient id="glow" cx="88%" cy="0%" r="65%"><stop offset="0%" stop-color="#7C6CF2" stop-opacity=".30"/><stop offset="100%" stop-color="#7C6CF2" stop-opacity="0"/></radialGradient>
-  <linearGradient id="nm" x1="0" x2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#C4BBFF"/></linearGradient>
+  <radialGradient id="glow" cx="88%" cy="0%" r="65%"><stop offset="0%" stop-color="#3FB950" stop-opacity=".22"/><stop offset="100%" stop-color="#3FB950" stop-opacity="0"/></radialGradient>
+  <linearGradient id="nm" x1="0" x2="1"><stop offset="0%" stop-color="#FFFFFF"/><stop offset="100%" stop-color="#ACE1B6"/></linearGradient>
   <style>
     .m{{font-family:{MONO}}} .s{{font-family:{SANS}}}
     .in{{opacity:0;animation:in .5s ease-out forwards}}
@@ -289,36 +289,14 @@ def render(s: dict, config: dict) -> str:
 <text x="{pad+2}" y="140" class="s in" font-size="18" fill="{INK2}" style="animation-delay:.15s">{esc(config["tagline"])}</text>
 <line x1="{pad}" y1="166" x2="{W-pad}" y2="166" stroke="{LINE}"/>''')
 
-    # contributions heatmap
-    a(f'<text x="{pad}" y="198" class="m" font-size="11" letter-spacing="1.5" fill="{MUTED}">CONTRIBUTIONS · LAST 12 MONTHS</text>')
-    legend_x = W - pad - 5 * 14 - 70
-    a(f'<text x="{legend_x}" y="198" class="m" font-size="11" fill="{MUTED}">less</text>')
-    for i, col in enumerate(HEAT):
-        a(f'<rect x="{legend_x + 34 + i*14}" y="189" width="10" height="10" rx="2" fill="{col}"/>')
-    a(f'<text x="{legend_x + 34 + 5*14 + 4}" y="198" class="m" font-size="11" fill="{MUTED}">more</text>')
-    last_month = None
-    for date_s, c in days:
-        d = dt.date.fromisoformat(date_s)
-        off = (d - first_sunday).days
-        col_i, row_i = off // 7, off % 7
-        x = pad + col_i * step
-        y = hm_y + row_i * step
-        delay = 0.3 + col_i * 0.012
-        a(f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell}" height="{cell}" rx="2.5" fill="{HEAT[heat_level(c)]}" class="in" style="animation-delay:{delay:.2f}s"/>')
-        if row_i == 0 and d.month != last_month and d.day <= 7:
-            a(f'<text x="{x:.1f}" y="{hm_y + 7*step + 12:.1f}" class="m" font-size="10.5" fill="{MUTED}">{d.strftime("%b")}</text>')
-            last_month = d.month
-
     # stat tiles
     last = s["last"]
     tiles = [
         (f'{s["total"]:,}', "contributions", "in the last 12 months"),
-        (f'{s["shipped_30d"]} of {len(s["rows"])}', "repos shipped", "in the last 30 days"),
         (f'{s["ci_pass"]}/{s["ci_total"]}', "CI pipelines green", f'{s["no_ci"]} repo{"s have" if s["no_ci"] > 1 else " has"} no CI yet' if s["no_ci"] else "every listed repo has CI"),
-        (last["ago"] if last else "n/a", "last ship", last["name"] if last else ""),
     ]
     gap = 16
-    tw = (W - 2 * pad - 3 * gap) / 4
+    tw = (W - 2 * pad - gap) / 2
     for i, (big, label, sub) in enumerate(tiles):
         x = pad + i * (tw + gap)
         a(f'<g class="in" style="animation-delay:{0.9 + i*0.1:.2f}s"><rect x="{x:.1f}" y="{tiles_y:.1f}" width="{tw:.1f}" height="{tiles_h}" rx="10" fill="{TILE}" stroke="{LINE}"/>'

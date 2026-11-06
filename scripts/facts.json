@@ -1,0 +1,10 @@
+{
+  "name": "Bharath Kumar Rajesh",
+  "role": "AI Engineer",
+  "employer": "Rolai",
+  "location": "New York City",
+  "focus": ["LLM agent evals", "MCP observability", "release gates", "agent reliability"],
+  "top_repos": ["agent-triage", "shipcheck", "ForgeSync", "project-transfer", "downgrade", "jober"],
+  "claims_file": "https://github.com/thebharathkumar/thebharathkumar/blob/main/CLAIMS.md",
+  "contact": "bharath.kr702@gmail.com"
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 130" width="1000" height="130" role="img" aria-label="Thanks for stopping by">
+<defs><linearGradient id="w" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#238636"/><stop offset=".55" stop-color="#3FB950"/><stop offset="1" stop-color="#2F81F7"/></linearGradient></defs>
+<rect width="1000" height="130" fill="#0B0E14"/>
+<text x="500" y="52" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="13" letter-spacing="2.5" fill="#8B93A7">THANKS FOR STOPPING BY · THE BOARD ABOVE REFRESHES DAILY</text>
+<path fill="url(#w)" opacity="0.55" d="M0,84 C170,44 330,116 500,84 C670,52 830,116 1000,84 L1000,130 L0,130 Z">
+<animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0,84 C170,44 330,116 500,84 C670,52 830,116 1000,84 L1000,130 L0,130 Z; M0,84 C170,116 330,52 500,84 C670,116 830,44 1000,84 L1000,130 L0,130 Z; M0,84 C170,44 330,116 500,84 C670,52 830,116 1000,84 L1000,130 L0,130 Z"/>
+</path>
+<path fill="url(#w)" opacity="0.9" d="M0,102 C200,66 360,128 540,100 C720,72 860,124 1000,100 L1000,130 L0,130 Z">
+<animate attributeName="d" dur="5s" repeatCount="indefinite" values="M0,102 C200,66 360,128 540,100 C720,72 860,124 1000,100 L1000,130 L0,130 Z; M0,102 C200,128 360,70 540,100 C720,128 860,68 1000,100 L1000,130 L0,130 Z; M0,102 C200,66 360,128 540,100 C720,72 860,124 1000,100 L1000,130 L0,130 Z"/>
+</path>
+</svg>
