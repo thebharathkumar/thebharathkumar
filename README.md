@@ -8,7 +8,7 @@
 </p>
 
 <a href="./scripts/status_page.py">
-<img src="./assets/status.svg" width="100%" alt="Live status page for Bharath Kumar Rajesh: contributions over the last 12 months, CI state and last ship date for each tracked repo, regenerated daily from the GitHub API. New public repos are added automatically." />
+<img src="./assets/status.svg" width="100%" alt="Live status page for Bharath Kumar Rajesh: contributions over the last 12 months, CI state for each tracked repo, regenerated daily from the GitHub API. New public repos are added automatically." />
 </a>
 
 <p align="center"><sub>☝️ This board is not a screenshot. A <a href="./.github/workflows/status.yml">GitHub Action</a> rebuilds it every day from the GitHub API. An observability engineer's profile should be observable.</sub></p>
@@ -23,7 +23,7 @@
 ## ✅ The receipts
 
 <p align="center">
-<a href="./CLAIMS.md"><img src="./assets/terminal.svg" width="100%" alt="pytest run over verified claims: 10K daily users, 99.5% uptime, 12 zero-regression releases, 0.92 MRR@5 over 50K docs, 4 silent regressions caught, agent-triage on PyPI, faramesh PR 33 merged, 0 of 4 MCP libraries ship the spec histograms, Springer Nature 2023, no fabricated metrics. 10 passed, 0 fabricated." /></a>
+<a href="./CLAIMS.md"><img src="./assets/terminal.svg" width="100%" alt="pytest run over verified claims: 10K daily users, 99.5% uptime, 12 zero-regression releases, 0.92 MRR@5 over 50K docs, 4 silent regressions caught, agent-triage on PyPI, faramesh PR 33 merged, 4 MCP libraries audited against the OTel spec, Springer Nature 2023, no fabricated metrics. 10 passed, 0 fabricated." /></a>
 </p>
 
 <p align="center"><sub>Each line maps to its evidence in <a href="./CLAIMS.md">CLAIMS.md</a>, including which claims come from private production work.</sub></p>
@@ -41,17 +41,13 @@ Ranks multi-agent failures by severity, frequency, and recovery from OpenTelemet
 
 **On PyPI · 220+ tests · 93%+ coverage**
 
-<img src="https://img.shields.io/github/stars/thebharathkumar/agent-triage?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/agent-triage?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
-
 </td>
 <td width="50%" valign="top">
 
 ### [mcp-otel-audit](https://github.com/thebharathkumar/mcp-otel-audit)
-A reproducible audit of 4 MCP OpenTelemetry libraries. **None of them ship the spec's MCP histograms.**
+A reproducible audit of 4 MCP OpenTelemetry libraries, **scored against the official OTel spec with Weaver**.
 
 **A maintainer of Logfire and the MCP Python SDK responded publicly.**
-
-<img src="https://img.shields.io/github/stars/thebharathkumar/mcp-otel-audit?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/mcp-otel-audit?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
 
 </td>
 </tr>
@@ -65,8 +61,6 @@ Release gate for agent changes. Runs the current agent and a proposed change on 
 
 **179 tests · standard library only · offline demo in under 2 seconds**
 
-<img src="https://img.shields.io/github/stars/thebharathkumar/shipcheck?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/shipcheck?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
-
 </td>
 <td width="50%" valign="top">
 
@@ -74,8 +68,6 @@ Release gate for agent changes. Runs the current agent and a proposed change on 
 Financial reconciliation infra with explainable matching and human-approved write-back.
 
 **125 unit + 75 integration tests on real Postgres and Redis. Scoring runs ~25x faster than ingestion.**
-
-<img src="https://img.shields.io/github/stars/thebharathkumar/ForgeSync?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/ForgeSync?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
 
 </td>
 </tr>
@@ -87,8 +79,6 @@ Pace University's course equivalency system as a modern web app: students search
 
 **Next.js 15 · TypeScript · Entra ID SSO · async Excel import pipeline · about 240 tests**
 
-<img src="https://img.shields.io/github/stars/thebharathkumar/project-transfer?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/project-transfer?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
-
 </td>
 <td width="50%" valign="top">
 
@@ -96,8 +86,6 @@ Pace University's course equivalency system as a modern web app: students search
 Bus Factor: organizational memory that survives turnover. A departing expert's knowledge, captured and answered with citations, calibrated confidence, and abstention when the record is thin.
 
 **RAG · calibration measured against ground truth (ECE) · abstains instead of guessing**
-
-<img src="https://img.shields.io/github/stars/thebharathkumar/jober?style=flat-square&color=2EA043&label=stars" alt="stars" /> <img src="https://img.shields.io/github/last-commit/thebharathkumar/jober?style=flat-square&color=3FB950&label=last%20commit" alt="last commit" />
 
 </td>
 </tr>
@@ -240,7 +228,7 @@ Anthropic: Building with Claude on Amazon Bedrock (2026) · AWS Solutions Archit
   "employer": "Rolai",
   "location": "New York City",
   "focus": ["LLM agent evals", "MCP observability", "release gates", "agent reliability"],
-  "top_repos": ["agent-triage", "shipcheck", "ForgeSync", "project-transfer", "downgrade", "jober"],
+  "top_repos": ["agent-triage", "mcp-otel-audit", "shipcheck", "ForgeSync", "project-transfer", "jober"],
   "claims_file": "https://github.com/thebharathkumar/thebharathkumar/blob/main/CLAIMS.md",
   "contact": "bharath.kr702@gmail.com"
 }

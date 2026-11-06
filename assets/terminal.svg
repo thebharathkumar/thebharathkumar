@@ -68,7 +68,7 @@
     <text x="972" y="302" class="m dim" text-anchor="end">[ 70%]</text>
   </g>
   <g class="l" style="animation-delay:2.79s">
-    <text x="28" y="329" class="m"><tspan class="dim">tests/test_audits.py::</tspan><tspan class="fg">test_0_of_4_mcp_libs_ship_spec_histograms</tspan></text>
+    <text x="28" y="329" class="m"><tspan class="dim">tests/test_audits.py::</tspan><tspan class="fg">test_4_mcp_libs_audited_against_otel_spec</tspan></text>
     <text x="872" y="329" class="m ok" text-anchor="end">PASSED</text>
     <text x="972" y="329" class="m dim" text-anchor="end">[ 80%]</text>
   </g>

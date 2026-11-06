@@ -10,7 +10,7 @@ The terminal image is a rendered summary, not a CI run. This file is the part yo
 |---|---|
 | agent-triage ships on PyPI | [pypi.org/project/agent-triage](https://pypi.org/project/agent-triage/) · [repo](https://github.com/thebharathkumar/agent-triage) (220+ tests, 93%+ coverage per its README) |
 | faramesh PR #33 merged | [faramesh/faramesh-core#33](https://github.com/faramesh/faramesh-core/pull/33): wires delegation tokens into runtime policy evaluation |
-| 0 of 4 MCP OpenTelemetry libraries ship the spec's MCP histograms | [mcp-otel-audit](https://github.com/thebharathkumar/mcp-otel-audit): reproducible audit and [writeup](https://github.com/thebharathkumar/mcp-otel-audit/blob/main/docs/blog/auditing-mcp-otel.md) |
+| 4 MCP OpenTelemetry libraries audited against the spec (v1.40.0); none ship the spec's MCP histograms | [mcp-otel-audit](https://github.com/thebharathkumar/mcp-otel-audit): reproducible audit and [writeup](https://github.com/thebharathkumar/mcp-otel-audit/blob/main/docs/blog/auditing-mcp-otel.md) |
 | Springer Nature 2023 | [ICACECS 2023 proceedings, Atlantis Press (a Springer Nature imprint)](https://www.atlantis-press.com/proceedings/icacecs-23/125995742). Corresponding author |
 
 ## Private: production work, not public
