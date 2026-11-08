@@ -13,7 +13,7 @@
 <circle cx="46" cy="36" r="4" fill="#3FB950"><animate attributeName="opacity" values="1;.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
 <circle cx="46" cy="36" r="4" fill="none" stroke="#3FB950" stroke-width="1.5"><animate attributeName="r" values="4;11" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="1.8s" repeatCount="indefinite"/></circle>
 <text x="60" y="40" class="m" font-size="13" fill="#6B7689">LIVE  ·  status / thebharathkumar</text>
-<text x="960" y="40" class="m" font-size="13" fill="#6B7689" text-anchor="end">refreshed 2026-11-07 13:13 UTC</text>
+<text x="960" y="40" class="m" font-size="13" fill="#6B7689" text-anchor="end">refreshed 2026-11-08 13:35 UTC</text>
 <text x="40" y="104" class="s in" font-size="46" font-weight="800" letter-spacing="-1" fill="url(#nm)">Bharath Kumar Rajesh</text>
 <text x="42" y="140" class="s in" font-size="18" fill="#A8B3C7" style="animation-delay:.15s">AI Engineer. Agents fail quietly. I build the tooling that makes them fail loudly.</text>
 <line x1="40" y1="166" x2="960" y2="166" stroke="#1F2633"/>
